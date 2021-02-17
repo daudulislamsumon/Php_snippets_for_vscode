@@ -8,7 +8,7 @@ Download the package or copy the code from Php_snippets_for_vscode file and past
 
 ## Usage
 
-You will get all the variable, directive , Events , Property and Method supports.
+You will get all the variable, functions , Events , Property and Method supports.
 
 ## Shortcuts
 

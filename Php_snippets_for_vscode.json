@@ -1,0 +1,515 @@
+{
+    // Php snippets for vscode
+    // Author: Md Daudul Islam <md.daudulislamsumon@gmail.com>
+    // Creation Date: 03/02/2021
+    // Creation Date: 04/02/2021
+    // Creation Date: 06/02/2021
+    // Creation Date: 07/02/2021
+    // Creation Date: 17/02/2021
+
+    "PHP Opening and Closing Tags (PHP snippet)": {
+        "prefix": "<?php",
+        "body": ["<?php ?>"],
+        "description": "PHP Opening and Closing Tags (PHP snippet)"
+    },
+    "Short echo tag of '<?php echo' (PHP snippet)": {
+        "prefix": "<?=",
+        "body": ["<?= ?>"],
+        "description": "Short echo tag of '<?php echo' (PHP snippet)"
+    },
+    "PHP $_GET is a PHP super global variable (PHP snippet)": {
+        "prefix": "$_GET",
+        "body": ["\\$_GET['']"],
+        "description": "PHP $_GET is a PHP super global variable (PHP snippet)"
+    },
+    "PHP $_POST is a PHP super global variable (PHP snippet)": {
+        "prefix": "$_POST",
+        "body": ["\\$_POST['']"],
+        "description": "PHP $_POST is a PHP super global variable (PHP snippet)"
+    },
+    "PHP $_REQUEST is a PHP super global variable (PHP snippet)": {
+        "prefix": "$_REQUEST",
+        "body": ["\\$_REQUEST['']"],
+        "description": "PHP $_REQUEST is a PHP super global variable (PHP snippet)"
+    },
+    "PHP $_SERVER is a PHP super global variable (PHP snippet)": {
+        "prefix": "$_SERVER",
+        "body": ["\\$_SERVER['']"],
+        "description": "PHP $_SERVER is a PHP super global variable (PHP snippet)"
+    },
+    "PHP $GLOBALS is a PHP super global variable (PHP snippet)": {
+        "prefix": "$GLOBALS",
+        "body": ["\\$GLOBALS['']"],
+        "description": "PHP $GLOBALS is a PHP super global variable (PHP snippet)"
+    },
+    "PHP $_FILES is a PHP super global variable (PHP snippet)": {
+        "prefix": "$_FILES",
+        "body": ["\\$_FILES['']"],
+        "description": "PHP $_FILES is a PHP super global variable (PHP snippet)"
+    },
+    "PHP $_COOKIE is a PHP super global variable (PHP snippet)": {
+        "prefix": "$_COOKIE",
+        "body": ["\\$_COOKIE['']"],
+        "description": "PHP $_COOKIE is a PHP super global variable (PHP snippet)"
+    },
+    "PHP $_SESSION is a PHP super global variable (PHP snippet)": {
+        "prefix": "$_SESSION",
+        "body": ["\\$_SESSION['']"],
+        "description": "PHP $_SESSION is a PHP super global variable (PHP snippet)"
+    },
+    "PHP $_ENV is a PHP super global variable (PHP snippet)": {
+        "prefix": "$_ENV",
+        "body": ["\\$_ENV['']"],
+        "description": "PHP $_ENV is a PHP super global variable (PHP snippet)"
+    },
+    "isset — Determine if a variable is declared and is different than null (PHP snippet)": {
+        "prefix": "isset",
+        "body": ["isset()"],
+        "description": "isset — Determine if a variable is declared and is different than null (PHP snippet)"
+    },
+    "exit — Output a message and terminate the current script (PHP snippet)": {
+        "prefix": "exit",
+        "body": ["exit()"],
+        "description": "exit — Output a message and terminate the current script (PHP snippet)"
+    },
+    "die — Equivalent to exit (PHP snippet)": {
+        "prefix": "die",
+        "body": ["die()"],
+        "description": "die — Equivalent to exit (PHP snippet)"
+    },
+    "__construct is a magic method (PHP snippet)": {
+        "prefix": "__construct",
+        "body": ["__construct() "],
+        "description": "__construct is a magic method (PHP snippet)"
+    },
+    "__destruct is a magic method (PHP snippet)": {
+        "prefix": "__destruct",
+        "body": ["__destruct() "],
+        "description": "__destruct is a magic method (PHP snippet)"
+    },
+    "__call is a magic method (PHP snippet)": {
+        "prefix": "__call",
+        "body": ["__call() "],
+        "description": "__call is a magic method (PHP snippet)"
+    },
+    "__callStatic is a magic method (PHP snippet)": {
+        "prefix": "__callStatic",
+        "body": ["__callStatic() "],
+        "description": "__callStatic is a magic method (PHP snippet)"
+    },
+    "__get is a magic method (PHP snippet)": {
+        "prefix": "__get",
+        "body": ["__get() "],
+        "description": "__get is a magic method (PHP snippet)"
+    },
+    "__set is a magic method (PHP snippet)": {
+        "prefix": "__set",
+        "body": ["__set() "],
+        "description": "__set is a magic method (PHP snippet)"
+    },
+    "__isset is a magic method (PHP snippet)": {
+        "prefix": "__isset",
+        "body": ["__isset() "],
+        "description": "__isset is a magic method (PHP snippet)"
+    },
+    "__unset is a magic method (PHP snippet)": {
+        "prefix": "__unset",
+        "body": ["__unset() "],
+        "description": "__unset is a magic method (PHP snippet)"
+    },
+    "__sleep is a magic method (PHP snippet)": {
+        "prefix": "__sleep",
+        "body": ["__sleep() "],
+        "description": "__sleep is a magic method (PHP snippet)"
+    },
+    "__wakeup is a magic method (PHP snippet)": {
+        "prefix": "__wakeup",
+        "body": ["__wakeup() "],
+        "description": "__wakeup is a magic method (PHP snippet)"
+    },
+    "__serialize is a magic method (PHP snippet)": {
+        "prefix": "__serialize",
+        "body": ["__serialize() "],
+        "description": "__serialize is a magic method (PHP snippet)"
+    },
+    "__unserialize is a magic method (PHP snippet)": {
+        "prefix": "__unserialize",
+        "body": ["__unserialize() "],
+        "description": "__unserialize is a magic method (PHP snippet)"
+    },
+    "__toString is a magic method (PHP snippet)": {
+        "prefix": "__toString",
+        "body": ["__toString() "],
+        "description": "__toString is a magic method (PHP snippet)"
+    },
+    "__invoke is a magic method (PHP snippet)": {
+        "prefix": "__invoke",
+        "body": ["__invoke() "],
+        "description": "__invoke is a magic method (PHP snippet)"
+    },
+    "__set_state is a magic method (PHP snippet)": {
+        "prefix": "__set_state",
+        "body": ["__set_state() "],
+        "description": "__set_state is a magic method (PHP snippet)"
+    },
+    "__clone is a magic method (PHP snippet)": {
+        "prefix": "__clone",
+        "body": ["__clone() "],
+        "description": "__clone is a magic method (PHP snippet)"
+    },
+    "__debugInfo is a magic method (PHP snippet)": {
+        "prefix": "__debugInfo",
+        "body": ["__debugInfo() "],
+        "description": "__debugInfo is a magic method (PHP snippet)"
+    },
+    "Decodes a JSON string (PHP snippet)": {
+        "prefix": "json_decode",
+        "body": ["json_decode()"],
+        "description": "Decodes a JSON string (PHP snippet)"
+    },
+    "Encode a value to JSON format (PHP snippet)": {
+        "prefix": "json_encode",
+        "body": ["json_encode()"],
+        "description": "Encode a value to JSON format (PHP snippet)"
+    },
+    "Returns the last error occurred (PHP snippet)": {
+        "prefix": "json_last_error",
+        "body": ["json_last_error()"],
+        "description": "Returns the last error occurred (PHP snippet)"
+    },
+    "Returns the error string of the last json_encode() or json_decode() call (PHP snippet)": {
+        "prefix": "json_last_error_msg",
+        "body": ["json_last_error_msg()"],
+        "description": "Returns the error string of the last json_encode() or json_decode() call (PHP snippet)"
+    },
+    "Returns the number of affected rows in the previous MySQL operation (PHP snippet)": {
+        "prefix": "affected_rows",
+        "body": ["affected_rows()"],
+        "description": "Returns the number of affected rows in the previous MySQL operation (PHP snippet)"
+    },
+    "Turns on or off auto-committing database modifications (PHP snippet)": {
+        "prefix": "autocommit",
+        "body": ["autocommit()"],
+        "description": "Turns on or off auto-committing database modifications (PHP snippet)"
+    },
+    "Changes the user of the specified database connection (PHP snippet)": {
+        "prefix": "change_user",
+        "body": ["change_user()"],
+        "description": "Changes the user of the specified database connection (PHP snippet)"
+    },
+    "Returns the default character set for the database connection (PHP snippet)": {
+        "prefix": "character_set_name",
+        "body": ["character_set_name()"],
+        "description": "Returns the default character set for the database connection (PHP snippet)"
+    },
+    "Closes a previously opened database connection (PHP snippet)": {
+        "prefix": "close",
+        "body": ["close()"],
+        "description": "Closes a previously opened database connection (PHP snippet)"
+    },
+    "Opens a new connection to the MySQL server (PHP snippet)": {
+        "prefix": "connect",
+        "body": ["connect()"],
+        "description": "Opens a new connection to the MySQL server (PHP snippet)"
+    },
+    "Returns the error code from the last connection error (PHP snippet)": {
+        "prefix": "connect_errno()",
+        "body": ["connect_errno()"],
+        "description": "Returns the error code from the last connection error (PHP snippet)"
+    },
+    "Returns the error description from the last connection error (PHP snippet)": {
+        "prefix": "connect_error",
+        "body": ["connect_error()"],
+        "description": "Returns the error description from the last connection error (PHP snippet)"
+    },
+    "Adjusts the result pointer to an arbitrary row in the result-set (PHP snippet)": {
+        "prefix": "data_seek",
+        "body": ["data_seek()"],
+        "description": "Adjusts the result pointer to an arbitrary row in the result-set (PHP snippet)"
+    },
+    "Performs debugging operations (PHP snippet)": {
+        "prefix": "debug",
+        "body": ["debug()"],
+        "description": "Performs debugging operations (PHP snippet)"
+    },
+    "Dumps debugging info into the log (PHP snippet)": {
+        "prefix": "dump_debug_info",
+        "body": ["dump_debug_info()"],
+        "description": "Dumps debugging info into the log (PHP snippet)"
+    },
+    "Returns the last error code for the most recent function call (PHP snippet)": {
+        "prefix": "errno",
+        "body": ["errno()"],
+        "description": "Returns the last error code for the most recent function call (PHP snippet)"
+    },
+    "Returns the last error description for the most recent function call (PHP snippet)": {
+        "prefix": "error",
+        "body": ["error()"],
+        "description": "Returns the last error description for the most recent function call (PHP snippet)"
+    },
+    "Returns a list of errors for the most recent function call (PHP snippet)": {
+        "prefix": "error_list",
+        "body": ["error_list()"],
+        "description": "Returns a list of errors for the most recent function call (PHP snippet)"
+    },
+    "Fetches all result rows as an associative array, a numeric array, or both (PHP snippet)": {
+        "prefix": "fetch_all",
+        "body": ["fetch_all()"],
+        "description": "Fetches all result rows as an associative array, a numeric array, or both (PHP snippet)"
+    },
+    "Fetches a result row as an associative, a numeric array, or both (PHP snippet)": {
+        "prefix": "fetch_array",
+        "body": ["fetch_array()"],
+        "description": "Fetches a result row as an associative, a numeric array, or both (PHP snippet)"
+    },
+    "Fetches a result row as an associative array (PHP snippet)": {
+        "prefix": "fetch_assoc",
+        "body": ["fetch_assoc()"],
+        "description": "Fetches a result row as an associative array (PHP snippet)"
+    },
+    "Returns the next field in the result-set, as an object (PHP snippet)": {
+        "prefix": "fetch_field",
+        "body": ["fetch_field()"],
+        "description": "Returns the next field in the result-set, as an object (PHP snippet)"
+    },
+    "Returns meta-data for a single field in the result-set, as an object (PHP snippet)": {
+        "prefix": "fetch_field_direct",
+        "body": ["fetch_field_direct()"],
+        "description": "Returns meta-data for a single field in the result-set, as an object (PHP snippet)"
+    },
+    "Returns an array of objects that represent the fields in a result-set (PHP snippet)": {
+        "prefix": "fetch_fields",
+        "body": ["fetch_fields()"],
+        "description": "Returns an array of objects that represent the fields in a result-set (PHP snippet)"
+    },
+    "Returns the lengths of the columns of the current row in the result-set (PHP snippet)": {
+        "prefix": "fetch_lengths",
+        "body": ["fetch_lengths()"],
+        "description": "Returns the lengths of the columns of the current row in the result-set (PHP snippet)"
+    },
+    "Returns the current row of a result-set, as an object (PHP snippet)": {
+        "prefix": "fetch_object",
+        "body": ["fetch_object()"],
+        "description": "Returns the current row of a result-set, as an object (PHP snippet)"
+    },
+    "Fetches one row from a result-set and returns it as an enumerated array (PHP snippet)": {
+        "prefix": "fetch_row",
+        "body": ["fetch_row()"],
+        "description": "Fetches one row from a result-set and returns it as an enumerated array (PHP snippet)"
+    },
+    "Returns the number of columns for the most recent query (PHP snippet)": {
+        "prefix": "field_count",
+        "body": ["field_count()"],
+        "description": "Returns the number of columns for the most recent query (PHP snippet)"
+    },
+    "Sets the field cursor to the given field offset (PHP snippet)": {
+        "prefix": "field_seek",
+        "body": ["field_seek()"],
+        "description": "Sets the field cursor to the given field offset (PHP snippet)"
+    },
+    "Returns a character set object (PHP snippet)": {
+        "prefix": "get_charset",
+        "body": ["get_charset()"],
+        "description": "Returns a character set object (PHP snippet)"
+    },
+    "Returns the MySQL client library version (PHP snippet)": {
+        "prefix": "get_client_info",
+        "body": ["get_client_info()"],
+        "description": "Returns the MySQL client library version (PHP snippet)"
+    },
+    "Returns statistics about client per-process (PHP snippet)": {
+        "prefix": "get_client_stats",
+        "body": ["get_client_stats()"],
+        "description": "Returns statistics about client per-process (PHP snippet)"
+    },
+    "Returns the MySQL client library version as an integer (PHP snippet)": {
+        "prefix": "get_client_version",
+        "body": ["get_client_version()"],
+        "description": "Returns the MySQL client library version as an integer (PHP snippet)"
+    },
+    "Returns statistics about the client connection (PHP snippet)": {
+        "prefix": "get_connection_stats",
+        "body": ["get_connection_stats()"],
+        "description": "Returns statistics about the client connection (PHP snippet)"
+    },
+    "Returns the MySQL server hostname and the connection type (PHP snippet)": {
+        "prefix": "get_host_info",
+        "body": ["get_host_info()"],
+        "description": "Returns the MySQL server hostname and the connection type (PHP snippet)"
+    },
+    "Returns the MySQL protocol version (PHP snippet)": {
+        "prefix": "get_proto_info",
+        "body": ["get_proto_info()"],
+        "description": "Returns the MySQL protocol version (PHP snippet)"
+    },
+    "Returns the MySQL server version (PHP snippet)": {
+        "prefix": "get_server_info",
+        "body": ["get_server_info()"],
+        "description": "Returns the MySQL server version (PHP snippet)"
+    },
+    "Returns the MySQL server version as an integer (PHP snippet)": {
+        "prefix": "get_server_version",
+        "body": ["get_server_version()"],
+        "description": "Returns the MySQL server version as an integer (PHP snippet)"
+    },
+    "Returns information about the last executed query (PHP snippet)": {
+        "prefix": "info",
+        "body": ["info()"],
+        "description": "Returns information about the last executed query (PHP snippet)"
+    },
+    "Initializes MySQLi and returns a resource for use with real_connect() (PHP snippet)": {
+        "prefix": "init",
+        "body": ["init()"],
+        "description": "Initializes MySQLi and returns a resource for use with real_connect() (PHP snippet)"
+    },
+    "Returns the auto-generated id from the last query (PHP snippet)": {
+        "prefix": "insert_id",
+        "body": ["insert_id()"],
+        "description": "Returns the auto-generated id from the last query (PHP snippet)"
+    },
+    "Asks the server to kill a MySQL thread (PHP snippet)": {
+        "prefix": "kill",
+        "body": ["kill()"],
+        "description": "Asks the server to kill a MySQL thread (PHP snippet)"
+    },
+    "Checks if there are more results from a multi query (PHP snippet)": {
+        "prefix": "more_results",
+        "body": ["more_results()"],
+        "description": "Checks if there are more results from a multi query (PHP snippet)"
+    },
+    "Performs one or more queries on the database (PHP snippet)": {
+        "prefix": "multi_query",
+        "body": ["multi_query()"],
+        "description": "Performs one or more queries on the database (PHP snippet)"
+    },
+    "Prepares the next result-set from multi_query() (PHP snippet)": {
+        "prefix": "next_result",
+        "body": ["next_result()"],
+        "description": "Prepares the next result-set from multi_query() (PHP snippet)"
+    },
+    "Sets extra connect options and affect behavior for a connection (PHP snippet)": {
+        "prefix": "options",
+        "body": ["options()"],
+        "description": "Sets extra connect options and affect behavior for a connection (PHP snippet)"
+    },
+    "Pings a server connection, or tries to reconnect if the connection has gone down (PHP snippet)": {
+        "prefix": "ping",
+        "body": ["ping()"],
+        "description": "Pings a server connection, or tries to reconnect if the connection has gone down (PHP snippet)"
+    },
+    "Polls connections (PHP snippet)": {
+        "prefix": "poll",
+        "body": ["poll()"],
+        "description": "Polls connections (PHP snippet)"
+    },
+    "Prepares an SQL statement for execution (PHP snippet)": {
+        "prefix": "prepare",
+        "body": ["prepare()"],
+        "description": "Prepares an SQL statement for execution (PHP snippet)"
+    },
+    "Performs a query against a database (PHP snippet)": {
+        "prefix": "query",
+        "body": ["query()"],
+        "description": "Performs a query against a database (PHP snippet)"
+    },
+    "Opens a new connection to the MySQL server like connect() (PHP snippet)": {
+        "prefix": "real_connect",
+        "body": ["real_connect()"],
+        "description": "Opens a new connection to the MySQL server like connect() (PHP snippet)"
+    },
+    "Escapes special characters in a string for use in an SQL statement (PHP snippet)": {
+        "prefix": "real_escape_string",
+        "body": ["real_escape_string()"],
+        "description": "Escapes special characters in a string for use in an SQL statement (PHP snippet)"
+    },
+    "Executes a single SQL query (PHP snippet)": {
+        "prefix": "real_query",
+        "body": ["real_query()"],
+        "description": "Executes a single SQL query (PHP snippet)"
+    },
+    "Returns result from an async SQL query (PHP snippet)": {
+        "prefix": "reap_async_query",
+        "body": ["reap_async_query()"],
+        "description": "Returns result from an async SQL query (PHP snippet)"
+    },
+    "Refreshes/flushes tables or caches, or resets the replication server information (PHP snippet)": {
+        "prefix": "refresh",
+        "body": ["refresh()"],
+        "description": "Refreshes/flushes tables or caches, or resets the replication server information (PHP snippet)"
+    },
+    "Rolls back the current transaction for the database (PHP snippet)": {
+        "prefix": "rollback",
+        "body": ["rollback()"],
+        "description": "Rolls back the current transaction for the database (PHP snippet)"
+    },
+    "Select the default database for database queries (PHP snippet)": {
+        "prefix": "select_db",
+        "body": ["select_db()"],
+        "description": "Select the default database for database queries (PHP snippet)"
+    },
+    "Sets the default client character set (PHP snippet)": {
+        "prefix": "set_charset",
+        "body": ["set_charset()"],
+        "description": "Sets the default client character set (PHP snippet)"
+    },
+    "Unsets user defined handler for load local infile command (PHP snippet)": {
+        "prefix": "set_local_infile_default",
+        "body": ["set_local_infile_default()"],
+        "description": "Unsets user defined handler for load local infile command (PHP snippet)"
+    },
+    "Set callback function for LOAD DATA LOCAL INFILE command (PHP snippet)": {
+        "prefix": "set_local_infile_handler",
+        "body": ["set_local_infile_handler()"],
+        "description": "Set callback function for LOAD DATA LOCAL INFILE command (PHP snippet)"
+    },
+    "Returns the SQLSTATE error code for the error (PHP snippet)": {
+        "prefix": "sqlstate",
+        "body": ["sqlstate()"],
+        "description": "Returns the SQLSTATE error code for the error (PHP snippet)"
+    },
+    "Used to establish secure connections using SSL (PHP snippet)": {
+        "prefix": "ssl_set",
+        "body": ["ssl_set()"],
+        "description": "Used to establish secure connections using SSL (PHP snippet)"
+    },
+    "Returns the current system status (PHP snippet)": {
+        "prefix": "stat",
+        "body": ["stat()"],
+        "description": "Returns the current system status (PHP snippet)"
+    },
+    "Initializes a statement and returns an object for use with stmt_prepare() (PHP snippet)": {
+        "prefix": "stmt_init",
+        "body": ["stmt_init()"],
+        "description": "Initializes a statement and returns an object for use with stmt_prepare() (PHP snippet)"
+    },
+    "Transfers a result-set from the last query (PHP snippet)": {
+        "prefix": "store_result",
+        "body": ["store_result()"],
+        "description": "Transfers a result-set from the last query (PHP snippet)"
+    },
+    "Returns the thread ID for the current connection (PHP snippet)": {
+        "prefix": "thread_id",
+        "body": ["thread_id()"],
+        "description": "Returns the thread ID for the current connection (PHP snippet)"
+    },
+    "Returns whether the client library is compiled as thread-safe (PHP snippet)": {
+        "prefix": "thread_safe",
+        "body": ["thread_safe()"],
+        "description": "Returns whether the client library is compiled as thread-safe (PHP snippet)"
+    },
+    "Initiates the retrieval of a result-set from the last query executed (PHP snippet)": {
+        "prefix": "use_result",
+        "body": ["use_result()"],
+        "description": "Initiates the retrieval of a result-set from the last query executed (PHP snippet)"
+    },
+    "Returns the number of warnings from the last query in the connection (PHP snippet)": {
+        "prefix": "warning_count",
+        "body": ["warning_count()"],
+        "description": "Returns the number of warnings from the last query in the connection (PHP snippet)"
+    },
+    "The unset() function unsets a variable (PHP snippet)": {
+        "prefix": "unset",
+        "body": ["unset()"],
+        "description": "The unset() function unsets a variable (PHP snippet)"
+    }
+}

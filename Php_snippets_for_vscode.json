@@ -2,10 +2,13 @@
     // Php snippets for vscode
     // Author: Md Daudul Islam <md.daudulislamsumon@gmail.com>
     // Creation Date: 03/02/2021
-    // Creation Date: 04/02/2021
-    // Creation Date: 06/02/2021
-    // Creation Date: 07/02/2021
-    // Creation Date: 17/02/2021
+    // Update Date: 04/02/2021
+    // Update Date: 06/02/2021
+    // Update Date: 07/02/2021
+    // Update Date: 17/02/2021
+    // *********************************************************
+    // =============== PHP Snippets For Vs Code ================
+    // *********************************************************
 
     "PHP Opening and Closing Tags (PHP snippet)": {
         "prefix": "<?php",
